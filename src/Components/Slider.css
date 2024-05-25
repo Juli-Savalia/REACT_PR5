@@ -1,0 +1,29 @@
+.carousel-item {
+  height: 100vh;
+}
+
+.banner1 {
+  background-image: url("./Images/banner.jpg") !important;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px;
+}
+
+.swing {
+  animation: swing 5s infinite ease-in-out;
+}
+
+@keyframes swing {
+  from {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}

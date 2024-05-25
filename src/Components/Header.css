@@ -1,0 +1,7 @@
+form {
+  height: 45px;
+}
+
+form > input {
+  height: 100%;
+}

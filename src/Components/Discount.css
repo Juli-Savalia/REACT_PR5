@@ -1,0 +1,23 @@
+.discount-box::after {
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+  height: 250px;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  position: absolute;
+  top: -110px;
+  left: -110px;
+  z-index: 0;
+  transform: translate(0);
+}
+
+.discount-box {
+  overflow: hidden !important;
+  z-index: 9999;
+}
+
+.discount-box:hover::after {
+  width: 700px !important;
+  height: 900px !important;
+}
